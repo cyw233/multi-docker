@@ -34,8 +34,8 @@ class Fib extends Component {
 
     // Fetch the values and indexes after the new index is submitted.
     // So that before the re-render, we can see the new value for this new index. 
-    this.fetchValues();
-    this.fetchIndexes();
+    // this.fetchValues();
+    // this.fetchIndexes();
     this.setState({ index: '' });
   };
 
